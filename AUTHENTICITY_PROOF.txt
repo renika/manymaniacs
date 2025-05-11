@@ -1,1 +1,8 @@
-SHA256 e link para validação de origem serão anexados após versão inicial.
+Este repositório público representa um manifesto ético, técnico e estratégico originado por Renê Luiz de Almeida.
+
+Autoria verificada por presença pública contínua, contribuição registrada via interações com IA e estrutura datada.
+
+Hash SHA256 do manifesto: [a ser gerado após versão final]
+Chave pública GPG: [a ser vinculada ao commit]
+
+Este documento serve como âncora pública de autoria para fins de integridade e rastreabilidade.
