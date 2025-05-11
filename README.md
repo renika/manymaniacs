@@ -1,27 +1,42 @@
-# ManyOne Manifesto Público
+# 🧠 ManyOne Manifesto Público
 
-**Projeto liderado por Renê Luiz de Almeida**
+**Projeto liderado por Renê Luiz de Almeida**  
+Uma arquitetura que une inteligência, ética, descentralização e justiça digital — com foco em *Pessoas e Conhecimento*.
+
+---
 
 ## 🌍 Visão
 
-Construir uma plataforma ética, funcional e acessível, que reinventa a comunicação digital, automação e resiliência por meio de uma rede federada, descentralizada e centrada em pessoas.
+Construir um sistema de rede federada, comunicação omnichannel e automação que respeite a autonomia das pessoas, promova equidade tecnológica e funcione mesmo onde a estrutura falha.
 
-## 🧠 Princípios
+---
 
-- People First: tecnologia que serve, não que substitui
-- Rede Federada: nós cooperando com autonomia
-- Zero Trust com propósito: segurança sem excessos
-- Modularidade ética: o que o usuário controla, o sistema respeita
+## 🧩 Componentes Centrais
 
-## 🚀 Propósito
+- **ManyOne**: Plataforma de gestão e comunicação
+- **Trafega**: Rede federada resiliente com fallback local
+- **OmniChannel Modular**: Comunicação unificada com controle por nó
+- **IA Assistente com Botão de 3 Estados**: (Ligado, Contextual, Desligado)
+- **Fallback físico com Pi + ESP32**: Infra local autônoma
 
-Dar poder às pessoas, empresas locais e comunidades, oferecendo ferramentas tecnológicas de ponta sem exigir capital exorbitante ou dependência de grandes corporações.
+---
 
-## 📡 Projetos integrados
+## 🔐 Princípios Éticos
 
-- **ManyOne**: Plataforma de gestão, comunicação e automação OmniChannel
-- **Trafega**: Rede federada de infraestrutura local com fallback autônomo
+- **People First**
+- **Zero Trust com validação contextual**
+- **Transparência modular**
+- **Coautoria e legado coletivo**
 
-## 🤝 Participe
+---
 
-Acreditamos que o futuro se constrói junto. Esta publicação representa uma âncora pública de autoria e convite à colaboração ética.
+## 🤝 Engaje
+
+- Leia o [LICENSE.md](./LICENSE.md)
+- Veja os marcos em [TIMELINE.md](./TIMELINE.md)
+- Colabore via [CONTRIBUTING.md](./CONTRIBUTING.md)
+- Comprove a autoria com [AUTHENTICITY_PROOF.txt](./AUTHENTICITY_PROOF.txt)
+
+---
+
+**"Investimos em Pessoas e Conhecimento" – Many Maniacs**
