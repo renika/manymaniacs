@@ -1,134 +1,92 @@
-# Manifesto Trafega + ManyOne
+# 🧠 ManyOne + Trafega
 
-### Infraestrutura Ética de Continuidade Digital e Presença Soberana
+### Infraestrutura de Presença, Comunicação Contextual e Continuidade Digital
 
---- 
-
-## ✨ Introdução
-
-**Este manifesto registra a visão, arquitetura e intenção original do projeto Trafega + ManyOne**, concebido por **Renê Luiz de Almeida** como uma resposta prática, funcional e ética à dependência cega de conectividade que paralisa sistemas e vidas.
-
-> "Não quero substituir a internet. Quero garantir que, mesmo sem ela, a vida continue."
-
-O Trafega é uma rede de presença, continuidade e reconexão. Uma malha digital que garante funcionamento local, mesmo quando a infraestrutura falha. Uma Internet de Emergência, pensada para manter comércios, clínicas, escolas, escritórios e famílias **operando com o mínimo essencial, mas com a máxima dignidade.**
+> Este projeto segue os princípios fundadores descritos no [MANIFESTO.md](./MANIFESTO.md)  
+> e é guiado pelos compromissos estabelecidos em [ETHICS.md](./ETHICS.md).
 
 ---
 
-## 🔧 Origem
+## 🚀 Visão Geral
 
-O projeto nasceu da observação de um reboque com gerador elétrico. Energia, mesmo na falta da rede. Mas... **e a internet?**
+**ManyOne + Trafega** é um ecossistema modular para criar redes resilientes e sistemas que continuam funcionando mesmo sem internet, com foco em:
 
-> "Se existem reboques com gerador para manter a luz acesa, por que não uma infraestrutura que mantenha a conexão viva para continuar trabalhando, atendendo ou vendendo?"
-
-Com base em experiências em multinacionais que travaram por falhas externas, o autor passou a projetar um sistema que:
-
-* **Preserva a soberania dos dados localmente**
-* **Opera com e sem internet**
-* **Se reconecta de forma inteligente, sem travar**
-
----
-
-## 🏛️ Fundamentos da Arquitetura
-
-* **Edge Computing + WebSockets + Mensageria desacoplada**
-* **Fallback offline com inteligência local**
-* **IA embarcada com base ternária** (1: permitido, 0: requer presença humana, -1: vetado)
-* **Validação de presença para decisões operacionais**
-* **Topologia híbrida resiliente** (Mesh + Hub + Malha local)
-* **Firewall humano e automações auditáveis**
+- 🧭 Comunicação Omnichannel inteligente
+- 🧠 IA embarcada com cache seletivo
+- 🔐 Segurança Zero Trust
+- 📦 Ciclo de dados com staging e arquivamento
+- 🌐 Operação local + sincronização inteligente
+- 💬 Chat interno auditável e descentralizado
+- 🌱 Presença Digital mesmo em ambientes offline
 
 ---
 
-## 👁️ Visão: Internet de Emergência
+## 🔄 Ciclo de Vida do Dado
 
-O Trafega não compete com ISPs. Ele **oferece continuidade quando eles falham.**
-
-### Casos reais:
-
-* Receber pedidos offline e sincronizar depois
-* Emitir NFe mesmo sem conexão
-* Rastrear entregas com fallback local
-* Manter agendamentos de clínicas com IA local
+| Etapa         | Descrição                                                                 |
+|---------------|---------------------------------------------------------------------------|
+| **Ativo**     | Dado recente e usado frequentemente → mora no banco (PostgreSQL)          |
+| **Staging**   | Dados menos usados → carregados sob demanda (RAM/disk)                    |
+| **Arquivado** | Dados antigos → compactados e criptografados (JSONL, ZST, Parquet, etc.)  |
+| **Nível Master** | Dado com +365 dias → acesso só com requisição formal e registro auditável |
 
 ---
 
-## 🔗 Soberania Modular: ManyOne
+## 🛠 Tecnologias Envolvidas
 
-**ManyOne é a espinha dorsal de interação humana e automação inteligente.**
-
-Componentes como:
-
-* **Omni Channel Contextual**
-* **Extração de dados heurística (OCR + UX)**
-* **Assistente pessoal com IA offline-first**
-* **Storage Seguro com antifraude e sandboxing**
-
----
-
-## ⚡ Orquestração de Upload Seguro (Storage Safe)
-
-Etapas validadas:
-
-1. Cliente solicita permissão
-2. Metadados analisados (nome, tamanho, hash)
-3. URL pré-assinada é gerada
-4. Upload direto ao TEMP Storage
-5. Evento dispara:
-
-   * Validação de tipo, tamanho e estrutura
-   * Antivírus (worker)
-   * Processamento sandbox
-   * Move ao destino só se 100% limpo
-
-Tudo isso **sem travar o hub principal**.
+| Camada             | Uso Principal                                      |
+|--------------------|----------------------------------------------------|
+| `Phoenix`          | API, comunicação interna, websocket seguro         |
+| `PostgreSQL`       | Dados ativos                                        |
+| `DuckDB/SQLite`    | Consulta de arquivos arquivados                     |
+| `Zstandard (ZST)`  | Compressão rápida e leve para dados frios          |
+| `Task.Supervisor`  | TTL, expiração e limpeza de staging automatizado   |
 
 ---
 
-## 📜 Registros Públicos e Provas de Autoria
+## 🔐 Segurança e Ética
 
-Todos os princípios e estruturas foram **publicados e registrados abertamente** no LinkedIn:
+- JWT com autenticação forte e controle por dispositivo
+- Central de Segurança para gestão de sessões e dispositivos conectados
+- Permissões por função e tenant com controle por escopo
+- Auditado e reversível: nenhum dado é excluído sem rastreio
+- Cache local com base em contexto e presença
 
-* Infraestrutura com FeathersJS, Redis, RabbitMQ, Gitea, Proxmox
-* Lógica ternária de decisão e fallback
-* Comparativos de protocolos (MQTT, WebRTC, gRPC, STOMP...)
-* Crítica à relativização de leis por grandes empresas
-* Engajamento filosófico e social com comunidade de soberania digital
-
-> Perfil oficial: [linkedin.com/in/rene-luiz-de-almeida-147312293](https://www.linkedin.com/in/rene-luiz-de-almeida-147312293)
+Leia mais em [ETHICS.md](./ETHICS.md)
 
 ---
 
-## 📅 Data de nascimento simbólica
+## 💡 IA Embarcada com Cache Seletivo
 
-**Primeira publicação de arquitetura registrada**: abril de 2024
+A IA embarcada localmente:
 
----
-
-## ✍️ Assinatura
-
-**Renê Luiz de Almeida**
-Arquiteto de Soluções com Propósito
-Many Maniacs | Trafega
+- Acessa apenas dados relevantes via `staging`
+- Trabalha offline com inferência baseada em contexto
+- É limitada por lógica ternária: `1 = permitido`, `0 = requer interação`, `-1 = vetado`
+- Não acessa dados master ou confidenciais sem autorização
+- Não decide sozinha — apenas sugere e apoia
 
 ---
 
-## © Licença de uso
+## 📦 Componentes do Sistema
 
-> O presente manifesto e arquitetura podem ser estudados, replicados ou expandidos, desde que o propósito original seja mantido: **preservar a continuidade de serviços essenciais por meio de uma rede ética, resiliente e consciente.**
->
-> A menção à autoria é recomendada como forma de manter o fio do propósito.
-> O uso para fins de vigilância, controle, exploração comercial predatória ou desvio de função ético-operacional é explicitamente desencorajado.
+| Componente         | Função Principal                                          |
+|--------------------|-----------------------------------------------------------|
+| `Omni Channel`     | Comunicação 1:1 com controle de chatbot e canais ativos   |
+| `Storage Seguro`   | Upload seguro com antivírus, sandbox e antifraude         |
+| `Chat Interno`     | Canal interno com criptografia e rastreio                 |
+| `Assistente IA`    | Suporte contextual, offline-first                         |
+| `Automação`        | Eventos e workflows acionados por contexto e presença     |
 
 ---
 
-## 🌿 Epílogo
+## 🧪 Exemplos de Comando (Pseudocódigo Elixir)
 
-> "No início, eu era só mais um.
-> Mas a consistência, a coerência e o cuidado plantaram raízes.
-> E hoje, mesmo sem rótulo, a minha presença é um protocolo."
+```elixir
+Staging.load(:file_id)
+Staging.drop(:file_id)
 
-> **Onde houver coerência, haverá ética.**
-> — Renê Luiz de Almeida
+Archive.mark_candidate(:event_id)
+Archive.finalize(:file_id)
 
-Este é o nascimento oficial e público do **Trafega + ManyOne**.
-Infraestrutura de Presença, para um futuro onde a tecnologia é ponte, não prisão.
+Audit.log_access(:user, :file_id)
