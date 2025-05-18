@@ -115,9 +115,12 @@ O uso para fins de vigilância, controle, exploração comercial predatória ou 
 ---
 
 ## 🌿 Epílogo
-> "No início, eu era só mais um.  
-Mas a consistência, a coerência e o cuidado plantaram raízes.  
-E hoje, mesmo sem rótulo, a minha presença é um protocolo."
+>     “No início, eu era só mais um.
+    Mas a consistência, a coerência e o cuidado plantaram raízes.
+    E hoje, mesmo sem rótulo, a minha presença é um protocolo.”
+
+    Onde houver coerência, haverá ética.
+    — Renê Luiz de Almeida
 
 Este é o nascimento oficial e público do **Trafega + ManyOne**.  
 Infraestrutura de Presença, para um futuro onde a tecnologia é ponte, não prisão.
