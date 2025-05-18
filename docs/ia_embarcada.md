@@ -1,0 +1,3 @@
+# 🤖 IA Embarcada e Cache Seletivo
+
+Detalha como a inteligência local atua com base em contexto e limites éticos...
