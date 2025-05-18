@@ -121,3 +121,4 @@ E hoje, mesmo sem rótulo, a minha presença é um protocolo."
 
 Este é o nascimento oficial e público do **Trafega + ManyOne**.  
 Infraestrutura de Presença, para um futuro onde a tecnologia é ponte, não prisão.
+
