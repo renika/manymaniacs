@@ -1,0 +1,3 @@
+# 📦 Casos de Uso por Setor
+
+Exemplos práticos de como a arquitetura pode ser aplicada em clínicas, comércios, comunidades...
