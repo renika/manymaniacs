@@ -1,3 +1,7 @@
+⚠️ Este repositório não é um produto pronto para uso, mas sim a documentação de uma arquitetura e visão.
+
+A implementação deve ser feita com compreensão plena dos princípios aqui descritos.
+
 # 🧠 ManyOne + Trafega
 
 ### Infraestrutura de Presença, Comunicação Contextual e Continuidade Digital
