@@ -90,3 +90,27 @@ Archive.mark_candidate(:event_id)
 Archive.finalize(:file_id)
 
 Audit.log_access(:user, :file_id)
+```
+
+---
+
+## 🙋 Como Contribuir
+
+1. Leia o [ETHICS.md](./ETHICS.md) para entender o posicionamento ético do projeto  
+2. Proponha melhorias com foco em descentralização, soberania de dados e continuidade  
+3. Evite hardcoding e dependências desnecessárias — o sistema é feito para durar  
+4. Pull Requests são bem-vindos, especialmente os que melhoram segurança, autonomia ou usabilidade  
+
+---
+
+## 🧾 Créditos e Registro
+
+Desenvolvido por **Renê Luiz de Almeida**  
+Idealizador do conceito **PresenceWare** e da arquitetura **ManyOne + Trafega**  
+Publicações e histórico em: [linkedin.com/in/rene-luiz-de-almeida-147312293](https://www.linkedin.com/in/rene-luiz-de-almeida-147312293)
+
+---
+
+## 🧭 Comece pelo propósito
+
+> Para entender o espírito do projeto, leia o [MANIFESTO.md](./MANIFESTO.md)
