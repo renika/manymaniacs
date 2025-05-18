@@ -30,3 +30,34 @@ Esta não é uma aplicação pronta, mas sim um guia ético e técnico para cons
 ---
 
 > Onde houver coerência, haverá ética.
+
+
+---
+
+## 🧠 Princípio Orientador
+
+Esta documentação parte do entendimento de que:
+
+> **Presença vale mais que armazenamento.**  
+> **Narrativa vale mais que volume.**  
+> **Coerência vale mais que redundância.**
+
+Neste projeto, **dados são tratados como eventos**, e eventos como unidades de presença.
+
+Cada componente é pensado para ser:
+
+- Rastreável
+- Reversível
+- Contextual
+- Sustentável
+
+---
+
+## 🌍 Sobre Finitude e Responsabilidade
+
+> Todo recurso é finito, por mais abundante que pareça ser.
+
+Esse princípio evita que o sistema cresça descontroladamente, inflando sem propósito.  
+A arquitetura respeita o tempo, o espaço, a intenção e o ciclo de vida de tudo o que entra nela.
+
+**Tecnologia com presença é tecnologia que permanece.**
