@@ -1,0 +1,3 @@
+# 🧱 Camadas Técnicas
+
+Este documento descreve as camadas técnicas do sistema ManyOne + Trafega...
