@@ -1,0 +1,3 @@
+# 🔄 Ciclo de Vida dos Dados
+
+Explica as etapas de armazenamento, staging e arquivamento dos dados...
