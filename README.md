@@ -60,18 +60,6 @@ Leia mais em [ETHICS.md](./ETHICS.md)
 
 ---
 
-## 💡 IA Embarcada com Cache Seletivo
-
-A IA embarcada localmente:
-
-- Acessa apenas dados relevantes via `staging`
-- Trabalha offline com inferência baseada em contexto
-- É limitada por lógica ternária: `1 = permitido`, `0 = requer interação`, `-1 = vetado`
-- Não acessa dados master ou confidenciais sem autorização
-- Não decide sozinha — apenas sugere e apoia
-
----
-
 ## 📦 Componentes do Sistema
 
 | Componente         | Função Principal                                          |
