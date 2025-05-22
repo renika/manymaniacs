@@ -129,6 +129,6 @@ Ela **adapta o ambiente** para que até dispositivos de baixa capacidade possam 
 >
 > Diferentemente da lógica fuzzy, que introduz ambiguidades (ex.: "70% de confiança") e compromete rastreabilidade e governança, a Lógica Ternária Aristotélica Fractal utiliza estados discretos (`1`, `0`, `null`) que resolvem para decisões claras com base em contexto e regras pré-configuradas. Isso permite que a IA colabore de forma ética e eficiente na rede comunitária, respeitando a privacidade, soberania e autonomia dos usuários.
 >
-> Isso é respeitar o que existe, e criar espaço para o que pode ser.
+> Ética não é um limite. É um pilar.
 
 — *Renê Luiz de Almeida*
